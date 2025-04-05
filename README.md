@@ -1,84 +1,86 @@
 # Employee Management Web Application
 
-This is a PHP-based web application designed for managing employees, projects, attendance, and leave requests in a corporate environment. It supports two main roles: **Admin** and **Employee**.
+> Based on PHP and MySQL, this Employee Management System provides separate portals for Admin and Employee roles. It includes key features like project assignment, attendance tracking, leave management, and secure authentication — designed for local deployment via XAMPP.
 
-## Features
+---
 
-### Homepage
-- Simple interface with `Home` and `Login` buttons.
-- Login expands into two options:
+## 🚀 Features
+
+### 🏠 Homepage
+- Simple UI with `Home` and `Login` buttons.
+- Login expands into:
   - Admin Login
   - Employee Login
 
 ---
 
-## Admin Panel
+### 👨‍💼 Admin Panel
 
-### Admin Login
-- Secure login using email and password.
-- Authenticated using data stored in MySQL.
+#### ✅ Admin Login
+- Email & password-based authentication (credentials stored in the database).
 
-### Admin Dashboard Functionalities
-- **View Employees**: Display a list of all employees with their IDs and details.
-- **Add Employee**: Admin can add a new employee with fields like:
-  - Name, Surname, Email, Phone Number, Join Date, Salary, Designation, etc.
-  - Employee ID is auto-generated.
-  - Default password is set as the email.
-- **Assign Projects**: Assign projects to employees by ID with:
-  - Project Name, Assigned Date, Deadline.
-- **Leave Requests**: View, approve or decline employee leave requests.
-- **Attendance**:
-  - Mark daily attendance.
+#### 📊 Dashboard Includes:
+- View all employee details (name, ID, etc.)
+- Add Employee:
+  - Name, surname, email, phone, joining date, salary, designation.
+  - Auto-generated employee ID and default password (email as password).
+- Assign Projects to employees by ID with:
+  - Assigned date, deadline, and project name.
+- Handle Leave Requests:
+  - View, approve, or decline requests in real-time.
+- Manage Attendance:
+  - Mark attendance for employees.
   - View attendance history date-wise.
-- **Logout**: Secure logout with confirmation.
+- Logout with confirmation prompt.
 
 ---
 
-## Employee Panel
+### 👷‍♂️ Employee Panel
 
-### Employee Login
-- Login using email and password credentials.
-- Redirected to a personalized employee dashboard.
+#### ✅ Employee Login
+- Email & password-based login.
 
-### Employee Dashboard Functionalities
-- **Dashboard**: View current attendance and leave request status (Pending, Approved, Declined).
-- **View Profile**: View personal details and update password.
-- **View Projects**: See assigned projects, deadlines, and submission details.
-- **View Attendance**: Track personal attendance records.
-- **Apply Leave**:
-  - Select type of leave from a dropdown.
-  - Choose start and end dates using calendars.
-  - Add a description/reason for leave.
-  - Status updates in real-time based on admin action.
-- **Logout**: Secure logout with confirmation.
+#### 📊 Dashboard Includes:
+- View personal attendance and leave request status (Approved / Declined / Pending).
+- View Profile:
+  - Edit password only.
+  - Profile data is controlled by the admin.
+- View Assigned Projects:
+  - View assigned projects with deadlines and submission dates.
+- View Attendance Records:
+  - Personal attendance listed date-wise.
+- Apply for Leave:
+  - Dropdown to select leave type (e.g., Sick Leave, Casual Leave).
+  - Start and end date selection using calendar pickers.
+  - Description box to explain reason for leave.
+  - Real-time update once approved/declined by admin.
+- Logout with confirmation prompt.
 
 ---
 
-## Technologies Used
+## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: PHP
-- **Database**: MySQL (via phpMyAdmin)
+- **Frontend**: HTML, CSS, JavaScript  
+- **Backend**: PHP  
+- **Database**: MySQL (via phpMyAdmin)  
 - **Local Server**: XAMPP (Apache + MySQL)
 
 ---
 
-## Setup Instructions
+## 🗂️ Setup Instructions
 
-1. **Install XAMPP**
-2. **Start Apache and MySQL**
-3. **Clone this repository**
-4. **Place project folder inside `htdocs` directory**
-5. **Import the SQL file into phpMyAdmin to set up the database**
-6. **Access the application via browser**  
-   `http://localhost/your-project-folder/`
+1. **Install XAMPP** from [https://www.apachefriends.org](https://www.apachefriends.org)
+2. Start the **Apache** and **MySQL** modules.
+3. Place your project folder inside the `htdocs` directory.
+4. Open **phpMyAdmin** and import the database SQL file.
+5. Visit `http://localhost/your-project-folder/` in your browser.
 
 ---
 
-## Folder Structure
+## 📁 Project Folder Structure
 
 ```plaintext
-project-folder/
+your-project-folder/
 ├── css/
 ├── js/
 ├── php/
@@ -89,5 +91,5 @@ project-folder/
 ├── includes/
 ├── db/
 │   └── config.php
-├── index.html / index.php
+├── index.php
 └── README.md
