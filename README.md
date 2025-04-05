@@ -121,8 +121,6 @@ This project is for educational/demo purposes. You are free to use, modify, and 
 
 ## 👤 Author
 
-![Author Logo](assets/author-logo.png)
-
 **Mriganka Ghosh**  
 Developer & Project Author  
 
