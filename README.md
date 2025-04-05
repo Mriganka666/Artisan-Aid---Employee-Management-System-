@@ -118,3 +118,11 @@ Pull requests and suggestions are welcome! If you find a bug or have a feature r
 This project is for educational/demo purposes. You are free to use, modify, and enhance it as needed.
 
 ---
+
+## 👤 Author
+
+![Author Logo](assets/author-logo.png)
+
+**Mriganka Ghosh**  
+Developer & Project Author  
+
