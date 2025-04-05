@@ -115,7 +115,7 @@ Pull requests and suggestions are welcome! If you find a bug or have a feature r
 
 ## 📄 License
 
-This project is for educational/demo purposes. You are free to use, modify, and enhance it as needed.
+This project is for educational purposes. You are free to use, modify, and enhance it as needed.
 
 ---
 
