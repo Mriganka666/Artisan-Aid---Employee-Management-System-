@@ -119,8 +119,6 @@ This project is for educational purposes. You are free to use, modify, and enhan
 
 ---
 
-## 👤 Author
+## 👤 Author & Developer
 
-**Mriganka Ghosh**  
-Developer & Project Author  
-
+**Mriganka Ghosh**   
